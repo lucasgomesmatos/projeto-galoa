@@ -1,13 +1,13 @@
 export default class MenuActive {
-  constructor(classSelector) {
+  constructor(classSelector, sideBar) {
     this.selector = document.querySelector(`${classSelector}`);
-    this.activeMenu(this.selector);
+    this.sideBar = document.querySelector(`${sideBar}`);
+    this.activeMenu(this.selector, this.sideBar);
   }
 
-  activeMenu(selector) {
+  activeMenu(selector, sideBar) {
     selector.addEventListener('click', () => {
       selector.classList.toggle("active");
-      const sideBar = document.querySelector(".side-bar-responsive");
       sideBar.classList.toggle("active");
     })
   }

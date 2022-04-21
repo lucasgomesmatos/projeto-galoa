@@ -4,7 +4,7 @@ import ActiveTextAbstract from "./modules/ActiveTextAbstract.js";
 import AddDiscussions from "./modules/AddDiscussions.js";
 import ResponseForUser from "./modules/ResponseForUser.js";
 
-new MenuActive(".side-menu-responsive .name-event");
+new MenuActive(".side-menu-responsive .name-event", ".side-bar-responsive");
 new MenuActiveLink("#menu-list .link-menu", "#menu-list-responsive .link-menu");
 new ActiveTextAbstract(".show-abstract-text", ".abstract-text .show-text");
 new AddDiscussions(
