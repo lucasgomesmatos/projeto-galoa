@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    /* Fonts */
+    --quicksand: "Quicksand", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --segoe_ui: "Segoe UI", sans-serif;
+
+    /* Gradient Colors*/
+    --linear-orange-m: #ffb354;
+    --linear-orange-b: #ee7a3a;
+    --linear-orange-topic-add: #F48F44;
+
+    --linear-orange-button: #f0813d;
+    --linear-orange-button-topic: #feb154;
+    --linear-orange-button-topic-2: #f1833e;
+
+    /* Gradient Colors Active*/
+    --linear-orange-active-m: #ffb455;
+    --linear-orange-active-b: #ed7839;
+
+    /* Main Colors*/
+    --orange: #ed7839;
+    --orange-lite: #fdf1eb;
+    --danger: #f85959;
+    --white: #ffffff;
+    --gray: #e7e7e7;
+    --gray-b: #725c5c;
+    --gray-select: #cccccc;
+    --gray-details: #ececec;
+    --gray-details-h2: #4e4e4e;
+    --gray-details-p: #5c5c5c;
+    --gray-details-u: #ada0a0;
+    --gray-question: #4d4d4d;
+    --gray-like: #757575;
+    --gray-p-add: #595959;
+    --gray-p-sucess: #707070;
+    --textearea-footer: #EAF1F2;
+
+    /* 1rem = 16px (USER Agent) = 100% (USER Agent) */
+    font-size: 62.5%; /* 10px */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
